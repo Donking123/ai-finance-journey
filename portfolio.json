@@ -1,0 +1,32 @@
+[
+  {
+    "name": "DBS",
+    "price": 35.5,
+    "shares": 100,
+    "sector": "finance"
+  },
+  {
+    "name": "Singtel",
+    "price": 2.8,
+    "shares": 500,
+    "sector": "telecom"
+  },
+  {
+    "name": "CapitaLand",
+    "price": 3.45,
+    "shares": 200,
+    "sector": "realestate"
+  },
+  {
+    "name": "OCBC",
+    "price": 13.2,
+    "shares": 150,
+    "sector": "finance"
+  },
+  {
+    "name": "Keppel",
+    "price": 7.1,
+    "shares": 300,
+    "sector": "industrial"
+  }
+]
