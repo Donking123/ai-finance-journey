@@ -1,0 +1,8 @@
+Portfolio Value: $9750.00
+Top Stock: DBS ($3550.00)
+
+Sector Totals:
+ finance: $5530.00
+ telecom: $1400.00
+ realestate: $690.00
+ industrial: $2130.00
