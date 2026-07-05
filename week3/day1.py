@@ -21,20 +21,39 @@ Headline: {headline}"""
 #
 # Pattern:
 #   message = client.messages.create(
-#       model="claude-sonnet-5",
+#       model="claude-sonnet-4-6",
 #       max_tokens=256,
 #       temperature=0.0,       <-- NEW PARAMETER
 #       messages=[{"role": "user", "content": prompt}]
 #   )
 
+print("=" * 60)
+print("LOW TEMPERATURE (0.0) — 3 runs:")
+print("=" * 60)
 
+for i in range(3):
+    message = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=256,
+        temperature=0.0,
+        messages=[{"role": "user", "content": prompt}]
+    )
+    reply = next(block.text for block in message.content if block.type == "text")
+    print(f"\nRun {i+1}:")
+    print(reply)
 
 # --- High temperature: 3 runs at temperature=1.0 ---
-# TODO: Loop 3 times, each time calling Claude with temperature=1.0
-# Print each result and observe: they should be noticeably different
+print("\n" + "=" * 60)
+print("HIGH TEMPERATURE (1.0) — 3 runs:")
+print("=" * 60)
 
-
-
-# --- Compare ---
-# TODO: Print a summary of what you observed
-# Which was more consistent? Which was more interesting?
+for i in range(3):
+    message = client.messages.create(
+        model="claude-sonnet-4-6",
+        max_tokens=256,
+        temperature=1.0,
+        messages=[{"role": "user", "content": prompt}]
+    )
+    reply = next(block.text for block in message.content if block.type == "text")
+    print(f"\nRun {i+1}:")
+    print(reply)
