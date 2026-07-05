@@ -1,0 +1,38 @@
+==================================================
+       PORTFOLIO TRACKER REPORT
+==================================================
+
+DBS
+  Shares: 100
+  Purchase: $35.50 → Current: $36.80
+  Value: $3680.00 (37.4% of portfolio)
+  Gain/Loss: +$130.00 (+3.7%)
+
+Singtel
+  Shares: 500
+  Purchase: $2.80 → Current: $2.65
+  Value: $1325.00 (13.5% of portfolio)
+  Gain/Loss: $-75.00 (-5.4%)
+
+CapitaLand
+  Shares: 200
+  Purchase: $3.45 → Current: $3.70
+  Value: $740.00 (7.5% of portfolio)
+  Gain/Loss: +$50.00 (+7.2%)
+
+OCBC
+  Shares: 150
+  Purchase: $13.20 → Current: $13.50
+  Value: $2025.00 (20.6% of portfolio)
+  Gain/Loss: +$45.00 (+2.3%)
+
+Keppel
+  Shares: 300
+  Purchase: $7.10 → Current: $6.90
+  Value: $2070.00 (21.0% of portfolio)
+  Gain/Loss: $-60.00 (-2.8%)
+
+--------------------------------------------------
+Total Portfolio Value: $9840.00
+Best Performer:  CapitaLand (+7.2%)
+Worst Performer: Singtel (-5.4%)
