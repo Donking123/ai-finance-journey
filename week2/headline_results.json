@@ -1,0 +1,32 @@
+[
+  {
+    "headline": "DBS Group reports record Q2 profit of $2.9 billion, beats analyst expectations",
+    "analysis": "This headline reports positive financial news for DBS Group, highlighting that the bank achieved its highest-ever quarterly profit of $2.9 billion in Q2, which exceeded what financial analysts had predicted\u2014signaling strong business performance and likely positive investor sentiment.",
+    "input_tokens": 55,
+    "output_tokens": 91
+  },
+  {
+    "headline": "Singtel warns of potential 15% revenue decline amid fierce competition",
+    "analysis": "This headline signals a cautionary financial outlook, indicating that Singtel anticipates significant revenue pressure (up to 15%) due to intensifying market competition, which could concern investors and stakeholders about the company's near-term profitability and market position.",
+    "input_tokens": 48,
+    "output_tokens": 81
+  },
+  {
+    "headline": "MAS holds interest rates steady, signals cautious outlook for Singapore economy",
+    "analysis": "This headline reports that Singapore's Monetary Authority (MAS) has kept its monetary policy unchanged, reflecting a wait-and-see approach amid economic uncertainties, while signaling that policymakers remain wary about growth prospects, inflation risks, or external headwinds affecting the Singapore economy going forward.",
+    "input_tokens": 51,
+    "output_tokens": 108
+  },
+  {
+    "headline": "Sea Limited stock surges 20% after surprise profitable quarter",
+    "analysis": "This headline reports that Sea Limited's stock price jumped 20% following better-than-expected news that the company achieved profitability in its most recent quarter, signaling positive investor sentiment about a shift from losses to profit.",
+    "input_tokens": 47,
+    "output_tokens": 72
+  },
+  {
+    "headline": "Grab Holdings announces $500M share buyback program amid investor pressure",
+    "analysis": "This headline signals that Grab Holdings is likely responding to concerns about its stock performance or valuation by returning capital to shareholders, suggesting the buyback is a defensive/reactive move driven by external stakeholder demands rather than purely strategic capital allocation, which may indicate underlying weakness in investor confidence despite the company's attempt to signal financial strength.",
+    "input_tokens": 48,
+    "output_tokens": 121
+  }
+]

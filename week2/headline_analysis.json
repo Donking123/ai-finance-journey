@@ -1,0 +1,14 @@
+[
+  {
+    "headline": "DBS Group reports record Q2 profit of $2.9 billion, beats analyst expectations",
+    "analysis": "Sentiment: positive\n\nEntities: DBS Group\n\nSummary: DBS Group achieved a record second-quarter profit of $2.9 billion, surpassing analyst expectations."
+  },
+  {
+    "headline": "Singtel warns of potential 15% revenue decline amid fierce competition",
+    "analysis": "Sentiment: Negative\n\nEntities: Singtel\n\nSummary: Singtel has issued a warning that it may experience up to a 15% decline in revenue due to intense competitive pressures in its market."
+  },
+  {
+    "headline": "MAS holds interest rates steady, signals cautious outlook for Singapore economy",
+    "analysis": "Sentiment: Neutral\n\nEntities: MAS (Monetary Authority of Singapore), Singapore economy\n\nSummary: The Monetary Authority of Singapore kept interest rates unchanged while indicating a cautious outlook for the country's economic prospects."
+  }
+]

@@ -1,0 +1,125 @@
+[
+  {
+    "sentiment": "positive",
+    "confidence": 0.95,
+    "sector": "finance",
+    "region": "Singapore",
+    "key_entities": [
+      "DBS Group"
+    ],
+    "market_impact": "Strong earnings beat likely to boost DBS share price and positive sentiment across Singapore banking sector.",
+    "action": "buy_signal",
+    "headline": "DBS Group reports record Q2 profit of $2.9 billion, beats analyst expectations"
+  },
+  {
+    "sentiment": "negative",
+    "confidence": 0.85,
+    "sector": "telecom",
+    "region": "Singapore",
+    "key_entities": [
+      "Singtel"
+    ],
+    "market_impact": "Anticipated revenue decline signals margin pressure and could weigh on Singtel's stock price and investor sentiment.",
+    "action": "sell_signal",
+    "headline": "Singtel warns of potential 15% revenue decline amid fierce competition"
+  },
+  {
+    "sentiment": "neutral",
+    "confidence": 0.75,
+    "sector": "macro",
+    "region": "Singapore",
+    "key_entities": [
+      "MAS",
+      "Singapore economy"
+    ],
+    "market_impact": "Stable rates reduce immediate volatility but cautious tone may weigh on growth-sensitive stocks and SGD sentiment.",
+    "action": "monitor",
+    "headline": "MAS holds interest rates steady, signals cautious outlook for Singapore economy"
+  },
+  {
+    "sentiment": "positive",
+    "confidence": 0.9,
+    "sector": "tech",
+    "region": "Singapore",
+    "key_entities": [
+      "Sea Limited"
+    ],
+    "market_impact": "Sea Limited's surprise profitability is likely to boost investor confidence and drive further stock appreciation in the near term.",
+    "action": "buy_signal",
+    "headline": "Sea Limited stock surges 20% after surprise profitable quarter"
+  },
+  {
+    "sentiment": "positive",
+    "confidence": 0.75,
+    "sector": "tech",
+    "region": "Asia",
+    "key_entities": [
+      "Grab Holdings"
+    ],
+    "market_impact": "The buyback signals management confidence and may support Grab's share price by reducing float and boosting EPS.",
+    "action": "buy_signal",
+    "headline": "Grab Holdings announces $500M share buyback program amid investor pressure"
+  },
+  {
+    "sentiment": "negative",
+    "confidence": 0.85,
+    "sector": "tech",
+    "region": "US",
+    "key_entities": [
+      "Tesla"
+    ],
+    "market_impact": "The 8% share price drop reflects investor concern over Tesla's slowing delivery growth, potentially pressuring the broader EV sector.",
+    "action": "sell_signal",
+    "headline": "Tesla shares drop 8% after missing Q3 delivery targets"
+  },
+  {
+    "sentiment": "positive",
+    "confidence": 0.95,
+    "sector": "tech",
+    "region": "US",
+    "key_entities": [
+      "NVIDIA"
+    ],
+    "market_impact": "NVIDIA's milestone signals strong investor confidence in AI-driven semiconductor growth, likely boosting related tech and chip stocks.",
+    "action": "buy_signal",
+    "headline": "NVIDIA hits $3 trillion market cap as AI chip demand soars"
+  },
+  {
+    "sentiment": "neutral",
+    "confidence": 0.65,
+    "sector": "macro",
+    "region": "Asia",
+    "key_entities": [
+      "China",
+      "People's Bank of China"
+    ],
+    "market_impact": "Lower rates may stimulate borrowing and investment but signal underlying economic weakness, potentially affecting regional trade partners and commodity demand.",
+    "action": "monitor",
+    "headline": "China cuts interest rates to boost slowing economic growth"
+  },
+  {
+    "sentiment": "positive",
+    "confidence": 0.75,
+    "sector": "property",
+    "region": "Asia",
+    "key_entities": [
+      "CapitaLand Investment",
+      "Tokyo office tower"
+    ],
+    "market_impact": "The acquisition signals CapitaLand Investment's expansion in the Japanese real estate market, potentially boosting its asset base and future rental income.",
+    "action": "monitor",
+    "headline": "CapitaLand Investment acquires Tokyo office tower for $800M"
+  },
+  {
+    "sentiment": "positive",
+    "confidence": 0.85,
+    "sector": "energy",
+    "region": "Global",
+    "key_entities": [
+      "OPEC"
+    ],
+    "market_impact": "Higher oil prices are likely to boost revenues and profitability for oil producers and energy companies, while increasing input costs for oil-dependent industries globally.",
+    "action": "buy_signal",
+    "headline": "Oil prices surge 15% as OPEC announces surprise production cuts"
+  }
+]

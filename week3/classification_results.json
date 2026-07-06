@@ -1,0 +1,27 @@
+[
+  {
+    "headline": "DBS slashes 500 jobs after completing Laksa Bank acquisition to cut costs",
+    "zero_shot": "M&A",
+    "few_shot": "M&A"
+  },
+  {
+    "headline": "Singtel shares plunge 10% after reporting worst quarterly loss in a decade",
+    "zero_shot": "NO_RESPONSE",
+    "few_shot": "market_movement"
+  },
+  {
+    "headline": "MAS warns Singapore banks to brace for rising loan defaults amid global slowdown",
+    "zero_shot": "regulatory",
+    "few_shot": "regulatory"
+  },
+  {
+    "headline": "CapitaLand sells $2B property portfolio as REIT index hits 52-week low",
+    "zero_shot": "NO_RESPONSE",
+    "few_shot": "M&A"
+  },
+  {
+    "headline": "Tesla stock surges 15% after Elon Musk announces surprise $10B share buyback",
+    "zero_shot": "market_movement",
+    "few_shot": "market_movement"
+  }
+]
