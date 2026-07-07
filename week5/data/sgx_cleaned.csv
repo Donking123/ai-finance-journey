@@ -1,0 +1,21 @@
+ticker,name,sector,market_cap_m,price,dividend_yield,pe_ratio
+D05,DBS Group,Banking,108500,41.2,5.1,10.2
+O39,OCBC Bank,Banking,65200,15.8,5.4,9.8
+U11,UOB,Banking,55800,34.5,4.8,10.5
+Z74,Singtel,Telecom,42100,3.25,4.9,18.3
+C6L,Singapore Airlines,Aviation,18900,6.85,0.0,15.7
+9CI,CapitaLand Investment,Real Estate,17800,3.12,3.8,22.4
+SE,Sea Limited,Technology,35600,125.4,0.0,45.2
+GRAB,Grab Holdings,Technology,14200,4.85,0.0,14.2
+A17U,CapitaLand Ascendas REIT,REIT - Industrial,12400,2.78,5.6,18.1
+J69U,Frasers Logistics Trust,REIT - Industrial,4800,1.22,6.1,14.5
+C38U,CapitaLand Integrated Commercial Trust,REIT - Commercial,14900,2.1,5.4,16.8
+N2IU,Mapletree Pan Asia Commercial Trust,REIT - Commercial,8600,1.35,6.2,12.3
+ME8U,Mapletree Industrial Trust,REIT - Industrial,6900,2.18,5.8,15.9
+J36,Jardine Matheson,Conglomerate,28500,3.42,3.5,12.1
+F34,Wilmar International,Agriculture,21300,3.42,4.2,11.8
+BN4,Keppel Corporation,Conglomerate,12800,7.25,3.9,14.2
+S63,ST Engineering,Industrial,14500,4.58,3.4,22.8
+BS6,YZJ Shipbuilding,Industrial,8200,2.15,4.5,8.9
+H78,Hongkong Land,Real Estate,11200,5.3,4.7,7.5
+M44U,Mapletree Logistics Trust,REIT - Logistics,7200,1.48,6.5,13.2

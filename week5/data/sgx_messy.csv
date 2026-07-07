@@ -1,0 +1,23 @@
+ticker,name,sector,market_cap_m,price,dividend_yield,pe_ratio
+D05,DBS Group,Banking,"$108,500",41.20,5.1,10.2
+O39,OCBC Bank,Banking,"$65,200",15.80,5.4,9.8
+U11,UOB,Banking,"$55,800",34.50,4.8,10.5
+Z74,Singtel,telecom,"$42,100",3.25,4.9,18.3
+C6L,Singapore Airlines,Aviation,"$18,900",6.85,,15.7
+9CI,CapitaLand Investment,Real Estate,"$17,800",3.12,3.8,22.4
+SE,Sea Limited,Technology,"$35,600",125.40,0.0,45.2
+GRAB,Grab Holdings,technology,"$14,200",4.85,0.0,
+A17U,CapitaLand Ascendas REIT,REIT - Industrial,"$12,400",2.78,5.6,18.1
+J69U,Frasers Logistics Trust,REIT - Industrial,"$4,800",1.22,6.1,14.5
+C38U,CapitaLand Integrated Commercial Trust,REIT - Commercial,"$14,900",2.10,5.4,16.8
+N2IU,Mapletree Pan Asia Commercial Trust,REIT - Commercial,"$8,600",1.35,6.2,12.3
+ME8U,Mapletree Industrial Trust,REIT - Industrial,"$6,900",2.18,5.8,15.9
+D05,DBS Group,Banking,"$108,500",41.20,5.1,10.2
+J36,Jardine Matheson,Conglomerate,"$28,500",,3.5,12.1
+F34,Wilmar International,agriculture,"$21,300",3.42,4.2,11.8
+BN4,Keppel Corporation,Conglomerate,"$12,800",7.25,3.9,14.2
+S63,ST Engineering,Industrial,"$14,500",4.58,3.4,22.8
+BS6,YZJ Shipbuilding,Industrial,"$8,200",2.15,4.5,8.9
+H78,Hongkong Land,real estate,"$11,200",5.30,4.7,7.5
+M44U,Mapletree Logistics Trust,REIT - Logistics,"$7,200",1.48,6.5,13.2
+O39,OCBC Bank,Banking,"$65,200",15.80,5.4,9.8

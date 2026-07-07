@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SGX Market Dashboard</title>
+  <style>
+      body { font-family: 'Segoe UI', Arial, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; background: #f5f7fa; color: #1a1a2e; }
+      h1 { color: #0d47a1; border-bottom: 3px solid #0d47a1; padding-bottom: 10px; }
+      h2 { color: #1565c0; margin-top: 30px; }
+      .overview { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin: 20px 0; }
+      .stat-card { background: white; padding: 20px; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+      .stat-card .number { font-size: 1.8em; font-weight: bold; color: #0d47a1; }
+      .stat-card .label { color: #666; font-size: 0.9em; margin-top: 5px; }
+      table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 15px 0; }
+      th { background: #0d47a1; color: white; padding: 12px; text-align: left; }
+      td { padding: 10px 12px; border-bottom: 1px solid #eee; }
+      tr:hover { background: #f0f4ff; }
+      .ai-section { background: white; padding: 25px; border-radius: 8px; border-left: 4px solid #4caf50; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin: 20px 0; }
+      .ai-section h3 { color: #4caf50; margin-top: 0; }
+      .ai-item { margin: 12px 0; padding: 8px 0; border-bottom: 1px solid #f0f0f0; }
+      .ai-label { font-weight: bold; color: #333; }
+      .footer { text-align: center; color: #999; margin-top: 40px; font-size: 0.85em; }
+  </style>
+</head>
+<body>
+  <h1>SGX Market Dashboard</h1>
+
+  <div class="overview">
+      <div class="stat-card">
+          <div class="number">20</div>
+          <div class="label">Stocks Tracked</div>
+      </div>
+      <div class="stat-card">
+          <div class="number">$509,400M</div>
+          <div class="label">Total Market Cap</div>
+      </div>
+      <div class="stat-card">
+          <div class="number">4.2%</div>
+          <div class="label">Avg Dividend Yield</div>
+      </div>
+      <div class="stat-card">
+          <div class="number">15.7</div>
+          <div class="label">Avg PE Ratio</div>
+      </div>
+  </div>
+
+  <h2>Sector Breakdown</h2>
+  <table>
+      <tr><th>Sector</th><th>Stocks</th><th>Market Cap</th><th>Avg Yield</th><th>Avg PE</th></tr>
+      <tr>
+          <td>Banking</td>
+          <td>3.0</td>
+          <td>$229,500M</td>
+          <td>5.1%</td>
+          <td>10.2</td>
+      </tr><tr>
+          <td>Technology</td>
+          <td>2.0</td>
+          <td>$49,800M</td>
+          <td>0.0%</td>
+          <td>29.7</td>
+      </tr><tr>
+          <td>Telecom</td>
+          <td>1.0</td>
+          <td>$42,100M</td>
+          <td>4.9%</td>
+          <td>18.3</td>
+      </tr><tr>
+          <td>Conglomerate</td>
+          <td>2.0</td>
+          <td>$41,300M</td>
+          <td>3.7%</td>
+          <td>13.1</td>
+      </tr><tr>
+          <td>Real Estate</td>
+          <td>2.0</td>
+          <td>$29,000M</td>
+          <td>4.2%</td>
+          <td>14.9</td>
+      </tr><tr>
+          <td>REIT - Industrial</td>
+          <td>3.0</td>
+          <td>$24,100M</td>
+          <td>5.8%</td>
+          <td>16.2</td>
+      </tr><tr>
+          <td>REIT - Commercial</td>
+          <td>2.0</td>
+          <td>$23,500M</td>
+          <td>5.8%</td>
+          <td>14.6</td>
+      </tr><tr>
+          <td>Industrial</td>
+          <td>2.0</td>
+          <td>$22,700M</td>
+          <td>4.0%</td>
+          <td>15.9</td>
+      </tr><tr>
+          <td>Agriculture</td>
+          <td>1.0</td>
+          <td>$21,300M</td>
+          <td>4.2%</td>
+          <td>11.8</td>
+      </tr><tr>
+          <td>Aviation</td>
+          <td>1.0</td>
+          <td>$18,900M</td>
+          <td>0.0%</td>
+          <td>15.7</td>
+      </tr><tr>
+          <td>REIT - Logistics</td>
+          <td>1.0</td>
+          <td>$7,200M</td>
+          <td>6.5%</td>
+          <td>13.2</td>
+      </tr>
+  </table>
+
+  <h2>Top 5 Dividend Stocks</h2>
+  <table>
+      <tr><th>Name</th><th>Sector</th><th>Dividend Yield</th><th>Price</th></tr>
+      <tr>
+          <td>Mapletree Logistics Trust</td>
+          <td>REIT - Logistics</td>
+          <td>6.5%</td>
+          <td>$1.48</td>
+      </tr><tr>
+          <td>Mapletree Pan Asia Commercial Trust</td>
+          <td>REIT - Commercial</td>
+          <td>6.2%</td>
+          <td>$1.35</td>
+      </tr><tr>
+          <td>Frasers Logistics Trust</td>
+          <td>REIT - Industrial</td>
+          <td>6.1%</td>
+          <td>$1.22</td>
+      </tr><tr>
+          <td>Mapletree Industrial Trust</td>
+          <td>REIT - Industrial</td>
+          <td>5.8%</td>
+          <td>$2.18</td>
+      </tr><tr>
+          <td>CapitaLand Ascendas REIT</td>
+          <td>REIT - Industrial</td>
+          <td>5.6%</td>
+          <td>$2.78</td>
+      </tr>
+  </table>
+
+  <h2>Top 5 Value Stocks (Lowest PE)</h2>
+  <table>
+      <tr><th>Name</th><th>Sector</th><th>PE Ratio</th><th>Price</th></tr>
+      <tr>
+          <td>Hongkong Land</td>
+          <td>Real Estate</td>
+          <td>7.5</td>
+          <td>$5.3</td>
+      </tr><tr>
+          <td>YZJ Shipbuilding</td>
+          <td>Industrial</td>
+          <td>8.9</td>
+          <td>$2.15</td>
+      </tr><tr>
+          <td>OCBC Bank</td>
+          <td>Banking</td>
+          <td>9.8</td>
+          <td>$15.8</td>
+      </tr><tr>
+          <td>DBS Group</td>
+          <td>Banking</td>
+          <td>10.2</td>
+          <td>$41.2</td>
+      </tr><tr>
+          <td>UOB</td>
+          <td>Banking</td>
+          <td>10.5</td>
+          <td>$34.5</td>
+      </tr>
+  </table>
+
+  <div class="ai-section">
+      <h3>AI Market Commentary</h3>
+      <div class="ai-item"><span class="ai-label">Market Outlook:</span> SGX presents a balanced market with reasonable valuations (15.7x PE) and attractive income yields (4.2%), supported by a solid banking sector anchor.</div>
+      <div class="ai-item"><span class="ai-label">Top Sector:</span> Banking looks strongest with low PE ratios (~10.2x), high dividend yields (5.1%), and a substantial $229.5B market cap providing stability and value.</div>
+      <div class="ai-item"><span class="ai-label">Dividend Pick:</span> Mapletree Logistics Trust offers the highest yield at 6.5% among top stocks, providing strong income potential within the resilient logistics REIT space.</div>
+      <div class="ai-item"><span class="ai-label">Value Pick:</span> Hongkong Land stands out with the lowest PE ratio at 7.5x, suggesting significant undervaluation relative to its real estate assets.</div>
+      <div class="ai-item"><span class="ai-label">Risk Warning:</span> Technology sector shows zero dividend yield with elevated PE of 29.7x, indicating growth-dependent valuations that could be vulnerable to rate or sentiment shifts.</div>
+  </div>
+
+  <div class="footer">Generated with pandas + Claude AI | Week 5 Saturday Project</div>
+</body>
+</html>
